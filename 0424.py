@@ -1,4 +1,4 @@
-def Gwaje_Haegyeol_eul_Wihan_Hamsoo_reul_Hwakjangseong_eul_Goryeo_hayeo_Jja_Boasseumnida(lst):
+def Haekshim(lst):
     # 연번(0부터 시작)
     order = list(range(len(lst)))
     sorted = False
@@ -32,7 +32,7 @@ Gyeongmae = list()
 for i in range(10):
     Gyeongmae.append(int(input()))
 
-Gyeongmae = Gwaje_Haegyeol_eul_Wihan_Hamsoo_reul_Hwakjangseong_eul_Goryeo_hayeo_Jja_Boasseumnida(Gyeongmae)
+Gyeongmae = Haekshim(Gyeongmae)
 # 입찰가가 모두 다르다는 조건에 따라
 second = Gyeongmae[1][-2] + 1
 print(second)
