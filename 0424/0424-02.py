@@ -1,3 +1,4 @@
+#확장성을 고려한 설계 - 경매에 참가한 사람 모두를 정렬
 def Haekshim(lst):
     # 연번(0부터 시작)
     order = list(range(len(lst)))
